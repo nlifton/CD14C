@@ -85,7 +85,7 @@ consts.NatomsQtzSi = 1.00229026126843E+22; %adjusted by AJK/NL - uses 2019 exact
 %   JENDL - Fukahori et al., 2002; Watanabe et al., 2011
 %   TENDL - Koning et al., 2019
 
-load react14C % compiled by AJK  CHANGE NAME BACK TO react14C after updating all excitation functions.
+load react14C % compiled by AJK
 % Use variable names as indicated
 consts.E = react14C.E;
 consts.O16nn2pC14 = react14C.O16nn2pC14R; %Reedy 2013; Imamura et al., 1990
