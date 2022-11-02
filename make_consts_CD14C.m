@@ -64,10 +64,10 @@ consts.Lsp = 160;
 % Straight sample means calculated first, then site production rates.
 % Values are straight means of all site PRs and standard deviations - NL 2/22
 
-consts.P14_ref_LS = 13.53;  %nuclide-specific LSD - Trajectory Traced Rc - PC14
-consts.delP14_ref_LS = 0.93; %nuclide-specific LSD - Trajectory Traced Rc - PC14
-consts.P14_ref_LD = 13.68;  %nuclide-specific LSD - Geocentric dipole - PC14
-consts.delP14_ref_LD = 1.22; %nuclide-specific LSD - Geocentric dipole - PC14
+consts.P14_ref_LS = 13.50;  %nuclide-specific LSD - Trajectory Traced Rc - PC14
+consts.delP14_ref_LS = 0.89; %nuclide-specific LSD - Trajectory Traced Rc - PC14
+consts.P14_ref_LD = 13.71;  %nuclide-specific LSD - Geocentric dipole - PC14
+consts.delP14_ref_LD = 1.20; %nuclide-specific LSD - Geocentric dipole - PC14
 
 % Atomic number densities (atoms target/g mineral)
 % (Moles target * Avogadro's Number / Formula weight)
