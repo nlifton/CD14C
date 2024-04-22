@@ -29,7 +29,7 @@ function out = make_consts_CD14C()
 % as published by the Free Software Foundation (www.fsf.org).
 %
 
-consts.version = '3.4_CD14C - 05/2022'; 
+consts.version = '3.4.1_CD14C - 04/2024'; 
 consts.prepdate = fix(clock);
 
 % C-14 decay constant 
@@ -52,7 +52,8 @@ consts.Lsp = 160;
 %
 
 % CRONUS Primary Results from Borchers et al. (2016) and Phillips et al.
-% (2016) and Young et al. (2014)
+% (2016) and Young et al. (2014) - NZ AND GREENLAND CORRECTED FOR
+% GRAPHITIZATION BLANKS NOW (NL 2/24)
 % Note that correct SPhi values per Eq. 3 of Lifton et al. (2014) are not included in Borchers
 % et al. (2016) or Marrero et al. (2016) CRONUScalc code, but global means of CRONUS primary 
 % site production rates (calculated individially by Lifton, 2/2016) differ only in 2nd 
@@ -64,10 +65,11 @@ consts.Lsp = 160;
 % Straight sample means calculated first, then site production rates.
 % Values are straight means of all site PRs and standard deviations - NL 2/22
 
-consts.P14_ref_LS = 13.50;  %nuclide-specific LSD - Trajectory Traced Rc - PC14
-consts.delP14_ref_LS = 0.89; %nuclide-specific LSD - Trajectory Traced Rc - PC14
-consts.P14_ref_LD = 13.71;  %nuclide-specific LSD - Geocentric dipole - PC14
-consts.delP14_ref_LD = 1.20; %nuclide-specific LSD - Geocentric dipole - PC14
+consts.P14_ref_LS = 12.85;  %nuclide-specific LSD - Trajectory Traced Rc - PC14
+consts.delP14_ref_LS = 0.88; %nuclide-specific LSD - Trajectory Traced Rc - PC14
+consts.P14_ref_LD = 13.04;  %nuclide-specific LSD - Geocentric dipole - PC14
+consts.delP14_ref_LD = 1.16; %nuclide-specific LSD - Geocentric dipole - PC14
+
 
 % Atomic number densities (atoms target/g mineral)
 % (Moles target * Avogadro's Number / Formula weight)

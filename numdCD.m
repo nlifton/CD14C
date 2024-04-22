@@ -25,7 +25,7 @@ end
 %check if calcite/carbonate was submitted - assume leftover weight percent is CO2
 s = sum(all_samplexrf,2); %sum up each sample weight percent
 num_samples = height(s);
-m = 98; %arbitrary minimum total weight percent for silicates (should add to ca. 100%) 
+m = 95; %arbitrary minimum total weight percent for silicates (should add to ca. 100%) Changed from 98 to 95% - NL 11/23
 for i = 1:num_samples
     if s(i) < 60 %maximum summed weight percent for carbonates
         all_samplexrf(i,12) = 100-s(i); 

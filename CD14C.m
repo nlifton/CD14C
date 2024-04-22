@@ -86,7 +86,7 @@ out.ID = all_sample_name';
 out.tv = scaling14.tv; %time vector, relative to 2010 (t = 0)
 out.P14_CD = P14_CD; %time- and compositionally dependent site production 
 % rate relative to that geologically calibrated for quartz
-out.P14gd_CD = P14gd_CD; %time- and compositionallydependent site production 
+out.P14gd_CD = P14gd_CD; %time- and compositionally dependent site production 
 % rate relative to that geologically calibrated for quartz, for geocentric dipole
 
 
